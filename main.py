@@ -11,7 +11,6 @@ range_end = input("Enter Range End: \n")
 amount_of_random_samples = input("Enter amount of random samples: \n")
 process = input("Enter the current process: \n")
 
-fit
 
 
 def clean_sequence_files():
