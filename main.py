@@ -6,17 +6,17 @@ from pprint import pprint
 
 
 
-# clientname = input("Enter Client Name: \n")
-# amt_range = input("Enter amount of ranges: \n")
-# process = input("Enter the current process: \n")
-# amt_range = int(amt_range)
-# samplesize = int(input("Enter the amount of samples: \n"))
-
-clientname = "Client 1"
-amt_range = 4
-process =   "Process 1"
+clientname = input("Enter Client Name: \n")
+amt_range = input("Enter amount of ranges: \n")
+process = input("Enter the current process: \n")
 amt_range = int(amt_range)
-samplesize = 25
+samplesize = int(input("Enter the amount of samples: \n"))
+
+# clientname = "Client 1"
+# amt_range = 4
+# process =   "Process 1"
+# amt_range = int(amt_range)
+# samplesize = 25
 
 ranges = dict()
 for i in range(amt_range):
